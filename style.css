@@ -149,6 +149,8 @@ main {
     margin: 0 auto;
     display: grid;
     background: #F8F9FC;
+    /*position: absolute;
+    left: 460px; -> VERIFICAR POSSIBILIDADE DE ALINHAMENTO*/
 }
 
 h1 {
@@ -198,9 +200,11 @@ h1 {
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
     font-size: 24px;
     color: #2F2F2F;
-    width: 357px;
+    width: auto;
     height: 123px;
     margin-top: 22px;
     margin-bottom: 30px;
@@ -224,20 +228,61 @@ figcaption {
     text-align: left;
 }
 
-.equal-paragraphs {
+.equal-layout{
     display: flex;
     flex-direction: column;
     width: 900px;
     height: 83px;
 }
 
-.equal-paragraphs p:not(:last-child) {
+.equal-layout p:not(:last-child) {
     margin-bottom: 40px;
 }
 
-.equal-paragraphs img {
+.equal-layout img {
     width: 650px;
     height: 365px;
     border-radius: 4px;
     margin: 0 auto 40px;
+}
+
+.interaction-container {
+    display: flex;
+    justify-content: start;
+}
+
+.interaction-container img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #D51C17;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+h5 {
+    color: #D51C17;
+    font-size: 14px;
+}
+
+.play-container p {
+    color: #9F9F9F;
+    font-size: 12px;
+
+}
+
+.shout-icon, #h3-shout {
+    display: flex;
+    color: #D51C17;
+}
+.shout-icon>img {
+    width: 18px;
+    height: 40px;
+}
+.container-wrap{
+    display: flex;
+}
+
+nav{
+    display: flex;
 }
