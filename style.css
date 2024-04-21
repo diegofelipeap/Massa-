@@ -19,14 +19,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Poppins';
-    src: url('./fonts/Poppins/Poppins-Italic.ttf') format('truetype');
-    /* Caminho para o arquivo de fonte italic */
-    font-weight: normal;
-    font-style: italic;
-}
-
 body {
     background: #F8F9FC;
 }
@@ -228,7 +220,7 @@ figcaption {
     text-align: left;
 }
 
-.equal-layout{
+.equal-layout {
     display: flex;
     flex-direction: column;
     width: 900px;
@@ -271,18 +263,86 @@ h5 {
 
 }
 
-.shout-icon, #h3-shout {
+.shout-icon,
+#h3-shout {
     display: flex;
     color: #D51C17;
+    width: 229px;
+    height: 43px;
 }
+
 .shout-icon>img {
     width: 18px;
     height: 40px;
 }
-.container-wrap{
+
+.container-wrap {
+    display: flex;
+    gap: 20px;
+    margin-top: 123px;
+}
+
+nav {
     display: flex;
 }
 
-nav{
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#center-paragraph {
+    font-size: 24px;
+    width: 688px;
+    height: 93px;
+    color: #D51C17;
+    font-weight: bold;
+    margin: 40px auto;
+}
+
+
+.new-notices {
+    width: 244px;
+    height: 210px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-notices button {
+    background: #D51C17;
+    color: #FFFFFF;
+    width: 63px;
+    height: 23px;
+    border-radius: 5px;
+    border: none;
+    margin: 18px 141px 57px 20px;
+}
+
+.bold-paragraph {
+    font-size: 15px;
+    font-weight: bold;
+    width: 184px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.small-paragraph {
+    font-size: 10px;
+    color: #9F9F9F;
+    margin: 6px 20px 2px 20px;
+    position: relative;
+    top: -32px;
+}
+
+.final-figure {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-figure img {
+    margin-bottom: 10px;
+    margin-left: 70px;
 }
