@@ -49,13 +49,11 @@
         </nav>
         <img src="./assets/desktop/foto@2x.png" alt="Imagem de homem feliz" id="last-image">
     </header>
-    <!-- 
-    Criar depois uma forma de fazer o aside bar do site, esquerdo e direito. 
 
     <aside id="left-bar">
         <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
         <p>OUVIR</p>
-        <div class="redes-sociais">
+        <div class="social-network">
             <img src="./assets/desktop/whatsapp.svg" alt="ícone do Whatsapp">
             <img src="./assets/desktop/facebook-1.svg" alt="ícone do Facebook">
             <img src="./assets/desktop/twitter.svg" alt="ícone do Twitter">
@@ -66,7 +64,7 @@
         <img src="./assets/desktop/print.svg" alt="ícone de impressão">
         <p>IMPRIMIR</p>
     </aside>
--->
+
 
     <main>
         <div class="container-top">
@@ -82,17 +80,6 @@
 
         <div class="container-main">
             <div>
-
-                <!-- Testar a seguinte alteração:
-                <div class="flex items-center justify-center w-full">
-                <div class="flex items-center justify-center w-1/2">
-                <p>Citacao</p>
-                </div>
-                <div class="flex items-center justify-center w-1/2">
-                <img src="" alt="" />
-                </div>
-                </div> -->
-
                 <img src="./assets/desktop/aspas.svg" alt="ícone de aspas">
                 <h3>
                     A essência é sem filtro porque a gente não quis se limitar a ‘isso é ou não axé’. Quisemos fazer
@@ -107,7 +94,7 @@
         </div>
 
         <div class="equal-layout">
-            <!--Verificar possíveis alterações semânticas e de estilização, visto que uma div enorme está acoplando várias sections e rodapé.-->
+
             <p>Em entrevista ao Jornal Massa, o vocalista Felipe Pezzoni falou sobre as inspirações, dificuldades e
                 bastidores do novo projeto. “A essência é sem filtro porque a gente não quis se limitar a ‘isso é ou não
                 axé’. Quisemos fazer música”, explica, descrevendo a mistura de ritmos.</p>
@@ -136,6 +123,7 @@
                 natural.</p>
 
             <div class="interaction-container">
+                <!-- Não consegui alinhar corretamente a div e nem a dimensão da imagem e borda.-->
                 <img src="./assets/desktop/play.svg" alt="ícone de play">
                 <div>
                     <h5>ENTREVISTA COM FELIPE PEZZONI</h5>
@@ -147,9 +135,12 @@
             <p>Outra composição que chama atenção é “Louca”. A música, que foge do habitual axé, mistura o reggae e pop,
                 marcando um novo processo da banda, que vem buscando a conexão com outros ritmos, incluindo o samba.</p>
             <div class="interaction-container">
+                <!-- Não consegui alinhar corretamente a div e nem a dimensão da imagem e borda.-->
                 <img src="./assets/desktop/download.svg" alt="ícone de download">
-                <h5>CAPA DO ALBUM.PDF</h5>
-                <p class="small-paragraph">10,53.mb</p>
+                <div>
+                    <h5>CAPA DO ALBUM.PDF</h5>
+                    <p>10,53.mb</p>
+                </div>
             </div>
 
             <p>Ao ser perguntado sobre a união dos gêneros, Felipe explica: “Ao juntar reggae e samba temos o ‘samba
@@ -194,12 +185,13 @@
 
 
             <section>
+                <div class="shout-icon">
+                    <img src="./assets/desktop/id.svg" alt="ícone de exclamação">
+                    <h3 id="h3-shout">leia também</h3>
+                </div>
 
                 <div class="container-wrap">
-                    <div class="shout-icon">
-                        <img src="./assets/desktop/id.svg" alt="ícone de exclamação">
-                        <h3 id="h3-shout">leia também</h3>
-                    </div>
+
                     <div class="new-notices">
                         <button>música</button>
                         <p class="bold-paragraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’</p>
@@ -230,90 +222,90 @@
             <!--Verificar possíveis alterações semânticas e de estilização, visto que uma div enorme está acoplando várias sections e rodapé.-->
             <footer>
                 <section id="top-footer">
-                    <img src="./assets/desktop/logo.svg" alt="Logo do site">
-
-                    <a href="#facebook">
-                        <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook">
-                    </a>
-                    <a href="#insta">
-                        <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram">
-                    </a>
+                    <img src="./assets/desktop/logo.svg" alt="Logo do site" id="footer-logo">
+                    <div class="footer-img">
+                        <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook" id="footer-facebook">
+                        <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram" id="footer-instagram">
+                    </div>
                 </section>
 
-                <nav>
+                <nav class="nav-links">
                     <li class="notices-footer">
                         <p>NOTÍCIAS</p>
-                        <a href="#">Editoriais</a>
-                        <a href="#">Política</a>
-                        <a href="#">Esporte</a>
-                        <a href="#">Enquetes</a>
-                        <a href="#">Cidades</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Promoções</a>
-                        <a href="#">Eventos</a>
-                        <a href="#">Vídeos</a>
-                        <a href="#">Reporter Massa</a>
+                        <a href="#2">Editoriais</a>
+                        <a href="#2">Política</a>
+                        <a href="#2">Esporte</a>
+                        <a href="#2">Enquetes</a>
+                        <a href="#2">Cidades</a>
+                        <a href="#2">Serviços</a>
+                        <a href="#2">Promoções</a>
+                        <a href="#2">Eventos</a>
+                        <a href="#2">Vídeos</a>
+                        <a href="#2">Reporter Massa</a>
                     </li>
                     <li class="services-footer">
                         <p>SERVIÇOS</p>
-                        <a href="#">Editoriais</a>
-                        <a href="#">Política</a>
-                        <a href="#">Esporte</a>
-                        <a href="#">Enquetes</a>
-                        <a href="#">Cidades</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Promoções</a>
-                        <a href="#">Eventos</a>
-                        <a href="#">Vídeos</a>
-                        <a href="#">Reporter Massa</a>
+                        <a href="#2">Editoriais</a>
+                        <a href="#2">Política</a>
+                        <a href="#2">Esporte</a>
+                        <a href="#2">Enquetes</a>
+                        <a href="#2">Cidades</a>
+                        <a href="#2">Serviços</a>
+                        <a href="#2">Promoções</a>
+                        <a href="#2">Eventos</a>
+                        <a href="#2">Vídeos</a>
+                        <a href="#2">Reporter Massa</a>
                     </li>
-                    <li class="jobs-footer"> Analisar melhor forma de estilização
+                    <li class="jobs-footer">
                         <p>EMPREGOS</p>
-                        <a href="#">Capacitação</a>
-                        <a href="#">Concursos</a>
-                        <a href="#">Servidor Público</a>
+                        <a href="#2">Capacitação</a>
+                        <a href="#2">Concursos</a>
+                        <a href="#2">Servidor Público</a>
                         <p>POLÍTICA</p>
-                        <a href="#">Capa de Política</a>
-                        <a href="#">Eleições 2022</a>
+                        <a href="#2">Capa de Política</a>
+                        <a href="#2">Eleições 2022</a>
                     </li>
 
                     <li class="sport-footer">
                         <p>ESPORTE</p>
-                        <a href="#">E. C. Bahia</a>
-                        <a href="#">E. C. Vitória</a>
-                        <a href="#">Esportes Náuticos</a>
-                        <a href="#">Futebol Interior do Estado</a>
-                        <a href="#">Futebol Mundial</a>
+                        <a href="#2">E. C. Bahia</a>
+                        <a href="#2">E. C. Vitória</a>
+                        <a href="#2">Esportes Náuticos</a>
+                        <a href="#2">Futebol Interior do Estado</a>
+                        <a href="#2">Futebol Mundial</a>
                     </li>
 
                     <li class="cities-footer">
                         <p>CIDADES</p>
-                        <a href="#">Capa de Cidades</a>
-                        <a href="#">Salvador</a>
-                        <a href="#">Feira de Santana</a>
-                        <a href="#">Vitória da Conquista</a>
-                        <a href="#">Juazeiro</a>
-                        <a href="#">Lauro de Freitas</a>
-                        <a href="#">Itabuna</a>
+                        <a href="#2">Capa de Cidades</a>
+                        <a href="#2">Salvador</a>
+                        <a href="#2">Feira de Santana</a>
+                        <a href="#2">Vitória da Conquista</a>
+                        <a href="#2">Juazeiro</a>
+                        <a href="#2">Lauro de Freitas</a>
+                        <a href="#2">Itabuna</a>
                     </li>
 
                     <li class="links-footer">
                         <p>LINKS</p>
-                        <a href="#">Fale com Massa</a>
-                        <a href="#">Política de Privacidade</a>
-                        <a href="#">Termos de Uso</a>
-                        <a href="#">Anuncie no site</a>
-                        <a href="#">Classificados</a>
-                        <a href="#">Trabalhe Conosco</a>
-                        <a href="#">Ajuda</a>
+                        <a href="#2">Fale com Massa</a>
+                        <a href="#2">Política de Privacidade</a>
+                        <a href="#2">Termos de Uso</a>
+                        <a href="#2">Anuncie no site</a>
+                        <a href="#2">Classificados</a>
+                        <a href="#2">Trabalhe Conosco</a>
+                        <a href="#2">Ajuda</a>
                     </li>
                 </nav>
 
-                criar linha de separação
-                <p>© 2006 - 2022 Todos os direitos reservados a Massa. Este material não pode ser publicado, transmitido
-                    por
-                    broadcast, reescrito ou redistribuição sem prévia autorização.</p>
-                <img src="./assets/desktop/logo mw.svg" alt="Logo da empresa Mundiware">
+                <!-- criar linha de separação -->
+                <section id="sec-caption">
+                    <p id="footer-caption">© 2006 - 2022 Todos os direitos reservados a Massa. Este material não pode
+                        ser publicado, transmitido
+                        por
+                        broadcast, reescrito ou redistribuição sem prévia autorização.</p>
+                    <img src="./assets/desktop/logo mw.svg" alt="Logo da empresa Mundiware" id="logo-mundiware">
+                </section>
             </footer>
         </div>
 
