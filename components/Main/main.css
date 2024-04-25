@@ -1,0 +1,106 @@
+/* main.css */
+
+main {
+    position: absolute;
+    top: 380vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 90vw;
+    z-index: 2;
+}
+
+.container-top {
+    background: #F5F8F7;
+    padding: 20px;
+    height: 141px;
+}
+
+.container-top a {
+    color: #D51C17;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.container-top p {
+    margin-top: 30px;
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2F2F2F;
+    width: 900px;
+    height: 171px;
+    margin-bottom: 55px;
+    margin-left: 50px;
+}
+
+.subtitle-01 {
+    color: #7C7C7C;
+    font-size: 20px;
+    margin-bottom: 55px;
+    margin-top: 0;
+    width: 845px;
+    height: 28px;
+    margin-left: 50px;
+}
+
+.other-paragraphs {
+    color: #2F2F2F;
+    font-size: 16px;
+    width: 900px;
+    height: 83px;
+    margin-left: 50px;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.container-main > div {
+    width: 357px;
+    height: 213px;
+    margin-left: 80px;
+}
+
+.container-main > div img {
+    width: 50px;
+    height: 40px;
+    margin-left: 151px;
+}
+
+.container-main h3 {
+    font-size: 24px;
+    color: #2F2F2F;
+    margin: 22px 0 8px;
+    text-align: center;
+}
+
+.container-main p {
+    font-size: 14px;
+    text-align: center;
+}
+
+figure {
+    width: 425px;
+    height: 300px;
+}
+
+figcaption {
+    color: #7C7C7C;
+    font-size: 12px;
+}

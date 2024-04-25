@@ -1,0 +1,41 @@
+/* media-queries.css */
+
+@media screen and (max-width: 768px) {
+    main {
+        top: 340vh;
+    }
+
+    .container-main {
+        grid-template-columns: 1fr;
+    }
+
+    .container-main>div {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container-main>div img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        top: 320vh;
+    }
+
+    .container-main>div {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container-main>div img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
