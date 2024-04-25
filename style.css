@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /*Verificar alterações na family de cada fonte e em cada camada aplicada.*/
 }
 
 @font-face {
@@ -13,14 +14,14 @@
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins1';
     src: url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins2';
     src: url('./fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
     font-weight: bolder;
     font-style: normal;
@@ -163,6 +164,9 @@ main {
     color: #D51C17;
     font-weight: bold;
     font-size: 12px;
+}
+
+.container-top a:first-child {
     margin-left: 30px;
 }
 

@@ -25,6 +25,9 @@ main {
     color: #D51C17;
     font-weight: bold;
     font-size: 12px;
+}
+
+.container-top a:first-child {
     margin-left: 30px;
 }
 
@@ -71,13 +74,13 @@ h1 {
     margin-left: 50px;
 }
 
-.container-main > div {
+.container-main>div {
     width: 357px;
     height: 213px;
     margin-left: 80px;
 }
 
-.container-main > div img {
+.container-main>div img {
     width: 50px;
     height: 40px;
     margin-left: 151px;
