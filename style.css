@@ -519,3 +519,10 @@ footer {
         justify-content: center;
     }
 }
+
+@media screen and (max-height: 950px) {
+    main{
+       position:absolute;
+       top: 390vh; 
+    }
+}
