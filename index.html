@@ -13,31 +13,34 @@
 
 <body>
     <header>
-        <nav id="first-nav">
+        <nav id="firstNav">
             <a href="#"><img src="./assets/desktop/logo.svg" alt="Logo do site"></a>
-            <div class="weather-item">
+            <div class="weatherItem">
                 <img src="./assets/desktop/sun.svg" alt="ícone de sol">
-                <div class="weather-info">
+                <div class="weatherInfo">
                     <p>26°C</p>
                     <p>Salvador, Bahia</p>
                 </div>
             </div>
             <a href="#">Assine!</a>
             <a href="#">Classificados</a>
-            <div class="input-container">
+            <div class="inputContainer">
                 <input type="text" placeholder="o que está buscando?" readonly>
-                <img src="./assets/desktop/search.svg" alt="ícone de lupa" id="img-input">
+                <img src="./assets/desktop/search.svg" alt="ícone de lupa" id="imgInput">
             </div>
-            <a href="#facebook">
-                <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook" class="first-nav-icons">
-            </a>
-            <a href="#insta" class="first-nav-icons">
-                <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram" class="first-nav-icons">
-            </a>
+
+            <div id="containerMediaIcons">
+                <a href="#facebook" class="firstNavIcons">
+                    <img src="./assets/desktop/facebook.svg" alt="ícone do Facecbook">
+                </a>
+                <a href="#insta" class="firstNavIcons">
+                    <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram">
+                </a>
+            </div>
         </nav>
 
-        <nav id="second-nav">
-            <a href="#">Capa do site</a>
+        <nav id="secondNav">
+            <a href="#">Capa do Site</a>
             <a href="#">Editoriais</a>
             <a href="#">Política</a>
             <a href="#">Esporte</a>
@@ -49,8 +52,9 @@
             <a href="#">Vídeos</a>
             <a href="#">REPORTER MASSA!</a>
         </nav>
-        <img src="./assets/desktop/foto@2x.png" alt="Imagem de homem feliz" id="last-image">
+        <img src="./assets/desktop/foto@2x.png" alt="Imagem de homem feliz" id="lastImage">
     </header>
+    <!-- Até aqui editei as classes para otimizar aplicação do JS-->
 
     <aside id="left-bar">
         <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
@@ -198,9 +202,6 @@
                     <input type="radio" disabled>
                 </div>
             </figure>
-
-
-
 
             <section>
                 <div class="shout-icon">
