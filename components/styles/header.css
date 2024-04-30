@@ -97,8 +97,8 @@ input::placeholder {
 }
 
 #lastImage {
-    width: 100%;
+    width: 100%; /*Verificar definições de margin, width e height.*/
     height: 80vh;
     object-fit: cover;
-    z-index: 1;
+    z-index: 1; 
 }

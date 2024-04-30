@@ -43,7 +43,6 @@ h1 {
     height: 171px;
     margin-bottom: 55px;
     margin-left: 50px;
-    /*Aplicando Margin-Left em todo o projeto para tentar alinhar em responsividade.*/
 }
 
 .subtitle01 {
@@ -131,13 +130,11 @@ figcaption {
 }
 
 .iframeEva {
-    /*Verificar erros*/
     margin: 40px auto;
     text-align: center;
 }
 
 .iframeEva iframe {
-    /*Verificar erros*/
     border-radius: 6px;
 }
 
@@ -320,13 +317,13 @@ footer {
     text-decoration: 0;
 }
 
-.seccaption {
+.secCaption {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.seccaption img {
+.secCaption img {
     width: 40px;
     height: 30px;
 }
