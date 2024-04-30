@@ -1,35 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('../../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins1';
-    src: url('../../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins2';
-    src: url('../../fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
-    font-weight: bolder;
-    font-style: normal;
-}
-
-
-body {
-    background: #F8F9FC;
-}
 
 header nav {
     display: flex;
@@ -38,39 +6,50 @@ header nav {
     margin: 25px 50px 40px;
 }
 
-#first-nav a {
+#firstNav a {
     color: #D51C17;
     text-decoration: 0;
 }
 
-.first-nav-icons {
+#containerMediaIcons,
+#containerMediaIcons>a {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+}
+
+.firstNavIcons {
     background: #D51C17 0% 0% no-repeat padding-box;
     border: 1px solid #D51C17;
     border-radius: 30px;
     width: 35px;
     height: 35px;
     text-decoration: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.weather-item {
+.weatherItem {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 15px;
 }
 
-.weather-info p:first-child {
+.weatherInfo p:first-child {
     color: #2F2F2F;
     font-weight: bold;
     font-size: 14px;
 }
 
-.weather-info:last-child {
+.weatherInfo:last-child {
     color: #7C7C7C;
     font-size: 12px;
 }
 
-#first-nav input {
+#firstNav input {
     top: 23px;
     left: 749px;
     width: 321px;
@@ -87,11 +66,11 @@ input::placeholder {
     color: #9F9F9F;
 }
 
-.input-container {
+.inputContainer {
     position: relative;
 }
 
-#img-input {
+#imgInput {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -103,32 +82,21 @@ input::placeholder {
     height: 20px;
 }
 
-#second-nav a {
+#secondNav a {
     color: #2F2F2F;
     font-size: 12px;
     font-weight: bold;
     text-decoration: 0;
 }
 
-#second-nav a:last-child {
+#secondNav a:last-child {
     color: #D51C17;
     font-size: 12px;
     font-weight: bold;
     text-decoration: 0;
 }
 
-.first-nav-icons {
-    background: #D51C17;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#last-image {
-    position: relative;
+#lastImage {
     width: 100%;
     height: 80vh;
     object-fit: cover;

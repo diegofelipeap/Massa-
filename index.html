@@ -4,11 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./components/Main/main.css">
-    <link rel="stylesheet" href="./components/Medias/mediaQuerie.css">
+    <link rel="stylesheet" href="./components/styles/header.css">
+    <link rel="stylesheet" href="./components/styles/main.css">
+    <link rel="stylesheet" href="./components/styles/querie.css">
     <link rel="shortcut icon" href="./assets/desktop/logo.svg" type="image/x-icon">
-    <title>Massa!</title>
+    <title>Massa!</title>s
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            /*Verificar alterações na family de cada fonte e em cada camada aplicada.*/
+        }
+
+        body {
+            background: #F8F9FC;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+        @font-face {
+            font-family: 'Poppins1';
+            src: url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Poppins2';
+            src: url('./fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+            font-weight: bolder;
+            font-style: normal;
+        } */
+    </style>
 </head>
 
 <body>
@@ -54,7 +89,7 @@
         </nav>
         <img src="./assets/desktop/foto@2x.png" alt="Imagem de homem feliz" id="lastImage">
     </header>
-   
+
     <main>
         <aside class="iconsBar">
             <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
@@ -99,8 +134,6 @@
         </div>
 
         <div class="equalLayout">
-            <!-- Até aqui editei as classes para otimizar aplicação do JS-->
-            <!-- Atualizei os nome da classe otherParagraphs em TODOS!-->
             <p class="otherParagraphs">Em entrevista ao Jornal Massa, o vocalista Felipe Pezzoni falou sobre as
                 inspirações, dificuldades e
                 bastidores do novo projeto. “A essência é sem filtro porque a gente não quis se limitar a ‘isso é ou não
