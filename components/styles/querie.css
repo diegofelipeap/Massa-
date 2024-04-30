@@ -23,6 +23,12 @@
         justify-content: center;
     }
 
+    .nav-links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #lastImage {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 576px) {
