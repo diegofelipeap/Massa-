@@ -3,7 +3,7 @@
 Este é um projeto em desenvolvimento que faz parte de um trabalho de estágio na empresa Mundiware. Este repositório contém os códigos HTML e CSS do site, mas ainda está em progresso e aberto a novas contribuições.
 
 ## Deploy Atual:
-Você pode visualizar o site hospedado clicando <a href="https://diegofelipeap.github.io/Massa-/">aqui.</a> <br>
+Você pode visualizar o site hospedado clicando <a href="https://diegofelipeap.github.io/Massa-/">aqui.</a> <br> 
 
 ## Sobre o Projeto
 
