@@ -1,3 +1,8 @@
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #F8F9FC
+}
 
 header nav {
     display: flex;
@@ -97,8 +102,7 @@ input::placeholder {
 }
 
 #lastImage {
-    width: 100%; /*Verificar definições de margin, width e height.*/
-    height: 80vh;
-    object-fit: cover;
-    z-index: 1; 
+    width: 1440px;
+    margin: 0 auto;
+    z-index: 1;
 }
