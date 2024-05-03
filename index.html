@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./components/styles/header.css">
     <link rel="stylesheet" href="./components/styles/main.css">
+    <link rel="stylesheet" href="./components/styles/article.css">
+    <link rel="stylesheet" href="./components/styles/footer.css">
     <link rel="stylesheet" href="./components/styles/querie.css">
     <link rel="shortcut icon" href="./assets/desktop/logo.svg" type="image/x-icon">
     <title>Massa!</title>
@@ -83,7 +85,7 @@
             <a href="#">Vídeos</a>
             <a href="#">REPORTER MASSA!</a>
         </nav>
-        <img src="./assets/desktop/foto@2x.jpg" alt="Imagem de homem feliz" id="lastImage">
+        <img src="./assets/desktop/foto@2x.jpg" alt="Imagem de homem feliz" id="mainImage">
     </header>
 
     <main>
@@ -107,7 +109,7 @@
         </div>
 
 
-        <section class="centralMain"> <!-- Criado para testar alterações de layout-->
+        <article> <!--Artigo do Site-->
 
 
             <h1>Felipe Pezzoni fala sobre mistura de ritmos em novo DVD da Banda Eva: ‘A gente não quis se limitar’</h1>
@@ -118,7 +120,7 @@
                 lançado no último dia 22 de julho. “Sem Filtro” tem a participação de Maneva, Babado Novo e a ilha
                 paradisíaca de Fernando de Noronha como cenário.</p>
 
-            <div class="containerMain">
+            <div class="containerArticle">
                 <div>
                     <img src="./assets/desktop/aspas.svg" alt="ícone de aspas">
                     <h3>
@@ -145,10 +147,10 @@
                     não
                     axé’. Quisemos fazer música”, explica, descrevendo a mistura de ritmos.</p>
 
-                <figure class="iframeEva">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sZKd20MpDOM?si=xco3JfU3yIH6eom0"
-                        title="YouTube video player" frameborder="0" controlsList="muted"></iframe>
-                </figure>
+                <section class="iframes">
+                    <iframe src="https://www.youtube.com/embed/sZKd20MpDOM?si=xco3JfU3yIH6eom0"
+                        title="YouTube video player" frameborder="0"></iframe>
+                </section>
 
                 <p class="otherParagraphs">“O som veio depois do que eu vi, tentei explicar o que aquele visual trazia
                     para
@@ -164,8 +166,14 @@
                 </p>
 
                 <h3 id="repertoryTitle">Confira o repertório:</h3>
-                <img id="repertoryImage" src="./assets/desktop/repertory.png"
-                    alt="Imagem de repertório musical na plataforma Spotify">
+
+                <section class="iframes">
+                    <iframe id="secondIframe"
+                        src="https://open.spotify.com/embed/album/4XY2OtEio7OBlyiWxUgHCg?utm_source=generator"
+                        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </section>
+
                 <p class="otherParagraphs">“Mina na Areia”, “Louca”, “Sem filtro” e regravações de singles da Banda Eva
                     compõem o novo álbum. Além
                     das músicas conhecidas pelo público, sucessos brasileiros como “Dona da Minha Cabeça”, de Geraldo
@@ -226,8 +234,6 @@
                     tivemos muito tempo de preparação, mas o processo foi tão fluido que as músicas foram
                     pintando</mark>
 
-                <!--CONTINUAR EDIÇÕES AQUI-->
-
                 <p class="otherParagraphs">Com curto tempo de produção, o músico conta que tudo teve que acontecer de
                     maneira orgânica para que
                     funcionasse bem, e que esse foi o maior diferencial do projeto. “Foi intuitivo, natural, as músicas
@@ -242,7 +248,7 @@
                     tentei otimizar meu tempo para estar mais com eles quando estava aqui”, afirma.</p>
                 <figure class="finalFigure">
                     <img src="./assets/desktop/final-main.png" alt="Imagem de um casal segurando um recém-nascido">
-                    <figcaption>Foto: Reprodução.</figcaption>
+                    <figcaption id="finalFigCaption">Foto: Reprodução.</figcaption>
                     <div>
                         <input type="radio" disabled>
                         <input type="radio" disabled>
@@ -252,129 +258,134 @@
                     </div>
                 </figure>
 
-                <section>
-                    <div class="shoutIcon">
-                        <img src="./assets/desktop/id.svg" alt="ícone de exclamação">
-                        <h3>leia também</h3>
-                    </div>
+        </article>
 
-                    <div class="containerWrap">
-
-                        <div class="newNotices">
-                            <button>música</button>
-                            <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
-                            </p>
-                            <p class="smallParagraph">há 2 min</p>
-                        </div>
-                        <div class="newNotices">
-                            <button>música</button>
-                            <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
-                            </p>
-                            <p class="smallParagraph">há 2 min</p>
-                        </div>
-                        <div class="newNotices">
-                            <button>música</button>
-                            <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
-                            </p>
-                            <p class="smallParagraph">há 2 min</p>
-                        </div>
-                        <div class="newNotices">
-                            <button>música</button>
-                            <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
-                            </p>
-                            <p class="smallParagraph">há 2 min</p>
-                        </div>
-                    </div>
-                </section>
-                <!--Verificar possíveis alterações semânticas e de estilização, visto que uma div enorme está acoplando várias sections e rodapé.-->
-                <footer>
-                    <section id="topFooter">
-                        <img src="./assets/desktop/logo.svg" alt="Logo do site" id="footerLogo">
-                        <div class="footerImg">
-                            <img src="./assets/desktop/facebook.svg" alt="ícone do Facebook" id="footerFacebook">
-                            <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram" id="footerInstagram">
-                        </div>
-                    </section>
-
-                    <nav class="navLinks">
-                        <li>
-                            <p>NOTÍCIAS</p>
-                            <a href="#2">Editoriais</a>
-                            <a href="#2">Política</a>
-                            <a href="#2">Esporte</a>
-                            <a href="#2">Enquetes</a>
-                            <a href="#2">Cidades</a>
-                            <a href="#2">Serviços</a>
-                            <a href="#2">Promoções</a>
-                            <a href="#2">Eventos</a>
-                            <a href="#2">Vídeos</a>
-                            <a href="#2">Reporter Massa</a>
-                        </li>
-                        <li>
-                            <p>SERVIÇOS</p>
-                            <a href="#2">Cursos</a>
-                            <a href="#2">Empregos</a>
-                            <a href="#2">Esporte</a>
-                            <a href="#2">Como Fazer</a>
-                            <a href="#2">Concursos</a>
-                            <a href="#2">Dicas</a>
-                        </li>
-                        <li>
-                            <p>EMPREGOS</p>
-                            <a href="#2">Capacitação</a>
-                            <a href="#2">Concursos</a>
-                            <a href="#2">Servidor Público</a>
-                            <p id="polite-title">POLÍTICA</p>
-                            <a href="#2">Capa de Política</a>
-                            <a href="#2">Eleições 2022</a>
-                        </li>
-
-                        <li>
-                            <p>ESPORTE</p>
-                            <a href="#2">E. C. Bahia</a>
-                            <a href="#2">E. C. Vitória</a>
-                            <a href="#2">Esportes Náuticos</a>
-                            <a href="#2">Futebol Interior do Estado</a>
-                            <a href="#2">Futebol Mundial</a>
-                        </li>
-
-                        <li>
-                            <p>CIDADES</p>
-                            <a href="#2">Capa de Cidades</a>
-                            <a href="#2">Salvador</a>
-                            <a href="#2">Feira de Santana</a>
-                            <a href="#2">Vitória da Conquista</a>
-                            <a href="#2">Juazeiro</a>
-                            <a href="#2">Lauro de Freitas</a>
-                            <a href="#2">Itabuna</a>
-                        </li>
-
-                        <li>
-                            <p>LINKS</p>
-                            <a href="#2">Fale com Massa</a>
-                            <a href="#2">Política de Privacidade</a>
-                            <a href="#2">Termos de Uso</a>
-                            <a href="#2">Anuncie no site</a>
-                            <a href="#2">Classificados</a>
-                            <a href="#2">Trabalhe Conosco</a>
-                            <a href="#2">Ajuda</a>
-                        </li>
-                    </nav>
-
-                    <section class="secCaption">
-                        <p>© 2006 - 2022 Todos os direitos reservados a Massa. Este material não pode
-                            ser publicado, transmitido
-                            por
-                            broadcast, reescrito ou redistribuição sem prévia autorização.</p>
-                        <img src="./assets/desktop/logo mw.svg" alt="Logo da empresa Mundiware">
-                    </section>
-                </footer>
+        <section>
+            <div class="shoutIcon">
+                <img src="./assets/desktop/id.svg" alt="ícone de exclamação">
+                <h3>leia também</h3>
             </div>
 
+            <div class="containerWrap">
+
+                <div class="newNotices">
+                    <button>música</button>
+                    <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
+                    </p>
+                    <p class="smallParagraph">há 2 min</p>
+                </div>
+                <div class="newNotices">
+                    <button>música</button>
+                    <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
+                    </p>
+                    <p class="smallParagraph">há 2 min</p>
+                </div>
+                <div class="newNotices">
+                    <button>música</button>
+                    <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
+                    </p>
+                    <p class="smallParagraph">há 2 min</p>
+                </div>
+                <div class="newNotices">
+                    <button>música</button>
+                    <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
+                    </p>
+                    <p class="smallParagraph">há 2 min</p>
+                </div>
+                <div class="newNotices">
+                    <button>música</button>
+                    <p class="boldParagraph">Dj Zullu lança single com Pocah e anuncia primeiro EP ‘Pra Elas’
+                    </p>
+                    <p class="smallParagraph">há 2 min</p>
+                </div>
+            </div>
         </section>
+        <!--Verificar possíveis alterações semânticas e de estilização, visto que uma div enorme está acoplando várias sections e rodapé.-->
+   
 
     </main>
+    <footer>
+        <section id="topFooter">
+            <img src="./assets/desktop/logo.svg" alt="Logo do site" id="footerLogo">
+            <div class="footerImg">
+                <img src="./assets/desktop/facebook.svg" alt="ícone do Facebook" id="footerFacebook">
+                <img src="./assets/desktop/instagram.svg" alt="ícone do Instagram" id="footerInstagram">
+            </div>
+        </section>
 
+        <nav class="navLinks">
+            <li>
+                <p>NOTÍCIAS</p>
+                <a href="#2">Editoriais</a>
+                <a href="#2">Política</a>
+                <a href="#2">Esporte</a>
+                <a href="#2">Enquetes</a>
+                <a href="#2">Cidades</a>
+                <a href="#2">Serviços</a>
+                <a href="#2">Promoções</a>
+                <a href="#2">Eventos</a>
+                <a href="#2">Vídeos</a>
+                <a href="#2">Reporter Massa</a>
+            </li>
+            <li>
+                <p>SERVIÇOS</p>
+                <a href="#2">Cursos</a>
+                <a href="#2">Empregos</a>
+                <a href="#2">Esporte</a>
+                <a href="#2">Como Fazer</a>
+                <a href="#2">Concursos</a>
+                <a href="#2">Dicas</a>
+            </li>
+            <li>
+                <p>EMPREGOS</p>
+                <a href="#2">Capacitação</a>
+                <a href="#2">Concursos</a>
+                <a href="#2">Servidor Público</a>
+                <p id="polite-title">POLÍTICA</p>
+                <a href="#2">Capa de Política</a>
+                <a href="#2">Eleições 2022</a>
+            </li>
+
+            <li>
+                <p>ESPORTE</p>
+                <a href="#2">E. C. Bahia</a>
+                <a href="#2">E. C. Vitória</a>
+                <a href="#2">Esportes Náuticos</a>
+                <a href="#2">Futebol Interior do Estado</a>
+                <a href="#2">Futebol Mundial</a>
+            </li>
+
+            <li>
+                <p>CIDADES</p>
+                <a href="#2">Capa de Cidades</a>
+                <a href="#2">Salvador</a>
+                <a href="#2">Feira de Santana</a>
+                <a href="#2">Vitória da Conquista</a>
+                <a href="#2">Juazeiro</a>
+                <a href="#2">Lauro de Freitas</a>
+                <a href="#2">Itabuna</a>
+            </li>
+
+            <li>
+                <p>LINKS</p>
+                <a href="#2">Fale com Massa</a>
+                <a href="#2">Política de Privacidade</a>
+                <a href="#2">Termos de Uso</a>
+                <a href="#2">Anuncie no site</a>
+                <a href="#2">Classificados</a>
+                <a href="#2">Trabalhe Conosco</a>
+                <a href="#2">Ajuda</a>
+            </li>
+        </nav>
+
+        <section class="secCaption">
+            <p>© 2006 - 2022 Todos os direitos reservados a Massa. Este material não pode
+                ser publicado, transmitido
+                por
+                broadcast, reescrito ou redistribuição sem prévia autorização.</p>
+            <img src="./assets/desktop/logo mw.svg" alt="Logo da empresa Mundiware">
+        </section>
+    </footer>
 </body>
 
 </html>

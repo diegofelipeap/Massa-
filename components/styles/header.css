@@ -101,7 +101,7 @@ input::placeholder {
     text-decoration: 0;
 }
 
-#lastImage {
+#mainImage {
     width: 1440px;
     margin: 0 auto;
     z-index: 1;
