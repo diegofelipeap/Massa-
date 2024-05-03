@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./components/styles/header.css">
+    <link rel="stylesheet" href="./components/styles/aside.css">
     <link rel="stylesheet" href="./components/styles/main.css">
     <link rel="stylesheet" href="./components/styles/article.css">
     <link rel="stylesheet" href="./components/styles/footer.css">
@@ -26,21 +27,6 @@
             font-weight: normal;
             font-style: normal;
         }
-
-        /*
-        @font-face {
-            font-family: 'Poppins1';
-            src: url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-            font-weight: bold;
-            font-style: normal;
-        }
-
-        @font-face {
-            font-family: 'Poppins2';
-            src: url('./fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
-            font-weight: bolder;
-            font-style: normal;
-        } */
     </style>
 </head>
 
@@ -55,8 +41,10 @@
                     <p>Salvador, Bahia</p>
                 </div>
             </div>
-            <a href="#">Assine!</a>
-            <a href="#">Classificados</a>
+            <div class="draftLinks">
+                <a href="#">Assine!</a>
+                <a href="#">Classificados</a>
+            </div>
             <div class="inputContainer">
                 <input type="text" placeholder="o que está buscando?" readonly>
                 <img src="./assets/desktop/search.svg" alt="ícone de lupa" id="imgInput">
@@ -120,20 +108,20 @@
                 lançado no último dia 22 de julho. “Sem Filtro” tem a participação de Maneva, Babado Novo e a ilha
                 paradisíaca de Fernando de Noronha como cenário.</p>
 
-            <div class="containerArticle">
+            <blockquote class="containerArticle">
                 <div>
                     <img src="./assets/desktop/aspas.svg" alt="ícone de aspas">
                     <h3>
                         A essência é sem filtro porque a gente não quis se limitar a ‘isso é ou não axé’. Quisemos fazer
                         música
                     </h3>
-                    <p>Vocalista Felipe Pezzoni</p>
+                    <p><cite>Vocalista Felipe Pezzoni</cite></p>
                 </div>
                 <figure>
                     <img src="./assets/desktop/foto.png" alt="Foto de homem sorrindo">
                     <figcaption>Foto: Reprodução.</figcaption>
                 </figure>
-            </div>
+            </blockquote>
 
             <div class="equalLayout">
                 <p class="otherParagraphs">Em entrevista ao Jornal Massa, o vocalista Felipe Pezzoni falou sobre as
@@ -300,10 +288,8 @@
                 </div>
             </div>
         </section>
-        <!--Verificar possíveis alterações semânticas e de estilização, visto que uma div enorme está acoplando várias sections e rodapé.-->
-   
-
     </main>
+
     <footer>
         <section id="topFooter">
             <img src="./assets/desktop/logo.svg" alt="Logo do site" id="footerLogo">

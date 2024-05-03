@@ -15,6 +15,14 @@ header nav {
     color: #D51C17;
     text-decoration: 0;
 }
+.draftLinks{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
 
 #containerMediaIcons,
 #containerMediaIcons>a {

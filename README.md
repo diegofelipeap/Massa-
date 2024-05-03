@@ -9,17 +9,17 @@ Você pode visualizar o site hospedado clicando <a href="https://diegofelipeap.g
 
 O objetivo do projeto é criar um site responsivo e dinâmico para a plataforma Massa!, oferecendo aos usuários uma experiência envolvente ao acessar notícias, vídeos, eventos e muito mais.
 
-## Como Contribuir
+## To Do:
 
-Se você deseja contribuir para o desenvolvimento deste projeto, aqui estão algumas maneiras de participar:
+Próximas alterações importantes no projeto:
 
-1. **Correções de Bugs**: Se você encontrar algum bug ou problema de exibição no site, sinta-se à vontade para corrigi-lo e enviar um pull request.
+1. **Aplicações de variações nas fontes/remover arquivos de fontes desnecessárias**.
 
-2. **Melhorias de Layout**: Se tiver ideias para melhorar o layout, estilo ou usabilidade do site, suas contribuições serão bem-vindas.
+2. **Melhorias de Layout (Responsividade)**.
 
-3. **Adição de Recursos**: Caso queira adicionar novos recursos, como páginas, seções ou funcionalidades interativas, fique à vontade para propor suas ideias e implementá-las.
+3. **Substituição de imagens por formatos otimizados**.
 
-4. **Otimização de Código**: Se encontrar oportunidades para otimizar o código HTML ou CSS, seja para melhorar o desempenho ou a legibilidade, suas sugestões serão apreciadas.
+4. **Otimização de Código**: Observar Através do site W3C e PSI.
 
 ## Como Executar
 
