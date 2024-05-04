@@ -1,50 +1,76 @@
 /* media-queries.css */
 @media screen and (max-width: 768px) {
-    .container-main {
-        grid-template-columns: 1fr;
+
+    body {
+        width: 360px;
+        height: 7169px;
+        background: #F8F9FC 0% 0% no-repeat padding-box;
     }
 
-    .container-main>div {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 20px;
-        text-align: center;
+    main {
+        max-width: 360px;
     }
 
-    .container-main>div img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .container-wrap {
+    .mobileCenterIcons {
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
+        gap: 30px;
     }
 
-    .nav-links {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .iconsBar {
+        display: none;
     }
-    #lastImage {
+
+    .firstNav>*:not(a:first-child):not(.weatherItem) {
+        display: none;
+    }
+
+    .firstNav>#containerMediaIcons {
+        display: none;
+    }
+
+    .firstNavButton {
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        border: none;
+        background: transparent;
+    }
+
+    .secondNav {
+        display: flex;
+        flex-direction: row;
         width: auto;
+        /*Analisar mudanças*/
     }
+
+    .weatherItem {
+        margin-left: 44.5px;
+    }
+
+    #mainImage {
+        display: none;
+    }
+
+    #mobileMainImage {
+        display: block;
+        margin: 0 auto;
+        width: 360px;
+        height: 260px;
+    }
+
+
+    h1 {
+        font-size: 22px;
+        width: 320px;
+        height: 109px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
-    main {
-        top: 320vh;
-    }
-
-    .container-main>div {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .container-main>div img {
-        margin-left: auto;
-        margin-right: auto;
+    .mobileCenterIcons {
+        display: flex;
     }
 }

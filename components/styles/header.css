@@ -11,7 +11,11 @@ header nav {
     margin: 25px 50px 40px;
 }
 
-#firstNav a {
+.firstNavButton{
+    display: none;
+}
+
+.firstNav a {
     color: #D51C17;
     text-decoration: 0;
 }
@@ -62,7 +66,7 @@ header nav {
     font-size: 12px;
 }
 
-#firstNav input {
+.firstNav input {
     top: 23px;
     left: 749px;
     width: 321px;
@@ -95,14 +99,14 @@ input::placeholder {
     height: 20px;
 }
 
-#secondNav a {
+.secondNav a {
     color: #2F2F2F;
     font-size: 12px;
     font-weight: bold;
     text-decoration: 0;
 }
 
-#secondNav a:last-child {
+.secondNav a:last-child {
     color: #D51C17;
     font-size: 12px;
     font-weight: bold;
@@ -113,4 +117,7 @@ input::placeholder {
     width: 1440px;
     margin: 0 auto;
     z-index: 1;
+}
+#mobileMainImage{
+    display: none;
 }

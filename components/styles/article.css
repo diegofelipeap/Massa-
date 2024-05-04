@@ -1,7 +1,9 @@
 article {
     margin: 0 auto;
 }
-
+.mobileCenterIcons{
+    display: none;
+}
 .subtitle01 {
     color: #7C7C7C;
     font-size: 20px;

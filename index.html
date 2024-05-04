@@ -32,7 +32,8 @@
 
 <body>
     <header>
-        <nav id="firstNav">
+        <button class="firstNavButton"> <img src="./assets/mobile/menu.svg" alt="ícone do botão de menu"></button>
+        <nav class="firstNav">
             <a href="#"><img src="./assets/desktop/logo.svg" alt="Logo do site"></a>
             <div class="weatherItem">
                 <img src="./assets/desktop/sun.svg" alt="ícone de sol">
@@ -60,7 +61,7 @@
             </div>
         </nav>
 
-        <nav id="secondNav">
+        <nav class="secondNav">
             <a href="#">Capa do Site</a>
             <a href="#">Editoriais</a>
             <a href="#">Política</a>
@@ -73,7 +74,8 @@
             <a href="#">Vídeos</a>
             <a href="#">REPORTER MASSA!</a>
         </nav>
-        <img src="./assets/desktop/foto@2x.jpg" alt="Imagem de homem feliz" id="mainImage">
+        <img src="./assets/desktop/foto@2x.jpg" alt="Imagem do cantor" id="mainImage">
+        <img src="./assets/mobile/foto@2x.png" alt="Imagem do cantor versão mobile" id="mobileMainImage">
     </header>
 
     <main>
@@ -91,16 +93,33 @@
                 <p>IMPRIMIR</p>
             </div>
         </aside>
+
         <div class="containerTop">
             <a href="#home">HOME</a> / <a href="#musica">MÚSICA</a>
             <p>MÚSICA • 26/08/2021 08H00 • ATUALIZADO HÁ UM DIA</p>
         </div>
 
 
-        <article> <!--Artigo do Site-->
+        <article>
 
             <h1>Felipe Pezzoni fala sobre mistura de ritmos em novo DVD da Banda Eva: ‘A gente não quis se limitar’</h1>
             <p class="subtitle01">Projeto foi lançado no dia 22 de julho e já pode ser acessado no Globoplay</p>
+
+            <section class="mobileCenterIcons">  <!-- Estilizar no article.css e Media Queries.-->
+                <div>
+                    <img src="./assets/desktop/ouvir.svg" alt="ícone de tocar música">
+                    <p>OUVIR</p>
+                </div>
+                <div>
+                    <img src="./assets/desktop/print.svg" alt="ícone de impressão">
+                    <p>IMPRIMIR</p>
+                </div>
+                <div>
+                    <img src="./assets/mobile/compartilhar.svg" alt="ícone de compartilhar">
+                    <p>Compartilhar</p>
+                </div>
+            </section>
+
             <p class="otherParagraphs">Pagode e reggae, ritmos diferentes do tradicional axé da Banda Eva, mas que fazem
                 parte
                 do novo DVD do grupo,
@@ -157,8 +176,8 @@
                 <section class="iframes">
                     <iframe id="secondIframe"
                         src="https://open.spotify.com/embed/album/4XY2OtEio7OBlyiWxUgHCg?utm_source=generator"
-                        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy" frameborder="0"></iframe>
+                        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+                        frameborder="0"></iframe>
                 </section>
 
                 <p class="otherParagraphs">“Mina na Areia”, “Louca”, “Sem filtro” e regravações de singles da Banda Eva
