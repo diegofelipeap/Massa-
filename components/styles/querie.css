@@ -286,14 +286,13 @@
     .secCaption p {
         font-size: 10px;
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
         margin-left: 0;
         width: 320px;
         height: 43px;
     }
     .secCaption img{
         margin-left: 10px;
-        margin-bottom: 160px;
     }
 }
 
