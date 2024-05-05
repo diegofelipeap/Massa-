@@ -22,6 +22,7 @@ main {
     color: #D51C17;
     font-weight: bold;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .containerTop a:first-child {
@@ -33,6 +34,7 @@ main {
     color: #6C6C6C;
     font-size: 12px;
     margin-left: 30px;
+    font-weight: bold;
 }
 
 h1 {
@@ -91,6 +93,7 @@ figcaption {
     color: #D51C17;
     font-size: 14px;
     cursor: pointer;
+    font-family: 'Poppins-Bold';
 }
 
 .interactionContainer p {

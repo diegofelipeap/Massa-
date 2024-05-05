@@ -43,6 +43,7 @@ article {
     color: #2F2F2F;
     margin: 22px 0 8px;
     text-align: center;
+    font-family: 'Poppins-Bold';
 }
 
 .containerArticle p {
@@ -84,21 +85,23 @@ article {
 
 h2 {
     font-size: 36px;
+    font-family: 'Poppins-Bold';
 }
 
 #repertoryTitle {
     font-size: 24px;
     text-align: center;
+    font-family: 'Poppins-Bold';
 }
 
 mark {
     font-size: 24px;
     width: 688px;
     color: #D51C17;
-    font-weight: bold;
     margin-left: 120px;
     margin-bottom: 40px;
     background: none;
+    font-family: 'Poppins-Bold';
 }
 
 .finalFigure {
