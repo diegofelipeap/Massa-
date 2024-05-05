@@ -13,13 +13,7 @@ O objetivo do projeto é criar um site responsivo e dinâmico para a plataforma 
 
 Próximas alterações importantes no projeto:
 
-1. **Aplicações de variações nas fontes/remover arquivos de fontes desnecessárias**.
-
-2. **Melhorias de Layout (Responsividade)**.
-
-3. **Substituição de imagens por formatos otimizados**.
-
-4. **Otimização de Código**: Observar Através do site W3C e PSI.
+- **Otimização de Código**: Observar Através do site W3C e PSI.
 
 ## Como Executar
 
