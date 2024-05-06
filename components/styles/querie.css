@@ -68,7 +68,6 @@
 
     .secondNav a:nth-last-child(-n+3) {
         display: none;
-        /* Oculta as últimas 4 âncoras */
     }
 
     .weatherItem {
@@ -278,7 +277,7 @@
     }
 
     .secCaption {
-        margin:40px 0;
+        margin: 40px 0;
     }
 
     .secCaption p {
@@ -289,7 +288,8 @@
         width: 320px;
         height: 43px;
     }
-    .secCaption img{
+
+    .secCaption img {
         margin-left: 10px;
     }
 }
