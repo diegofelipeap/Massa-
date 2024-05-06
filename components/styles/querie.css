@@ -128,13 +128,13 @@
     .containerArticle>div {
         width: 286px;
         height: 184px;
-        margin-left: 0;
+        margin-left: -20px;
     }
 
     .containerArticle>div img {
         width: 50px;
         height: 40px;
-        margin-left: 120px;
+        margin-left: 115px;
     }
 
     .containerArticle h3 {
