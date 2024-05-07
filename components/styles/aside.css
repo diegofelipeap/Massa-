@@ -10,25 +10,24 @@
     position: absolute;
 }
 
-.iconsBar>div:first-child {
+.iconsBar>section {
     display: flex;
 }
 
-.iconsBar div>figure>img {
+.iconsBar section>div>img {
     cursor: pointer;
 }
 
-.iconsBar div>figure:nth-child(2) {
-    margin-left: 510px;
+.iconsBar section>div:nth-child(2) {
     text-align: center;
-    cursor: pointer;
+    position: absolute;
+    left: 1100px;
 }
 
 .socialNetwork {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: -200px;
     cursor: pointer;
     align-items: center;
 }
