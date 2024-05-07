@@ -14,9 +14,14 @@
     display: flex;
 }
 
+.iconsBar div>figure>img {
+    cursor: pointer;
+}
+
 .iconsBar div>figure:nth-child(2) {
     margin-left: 510px;
     text-align: center;
+    cursor: pointer;
 }
 
 .socialNetwork {
@@ -32,9 +37,4 @@
     margin-top: 40px;
     width: 30px;
     height: 30px;
-}
-
-.iconsBar img:not(:first-child) {
-    width: 18px;
-    height: 18px;
 }
