@@ -125,28 +125,29 @@
         margin-top: 50px;
     }
 
-    .containerArticle>div {
+    .containerArticle>blockquote {
         width: 286px;
         height: 184px;
         margin-left: -20px;
     }
 
-    .containerArticle>div img {
+    .containerArticle>blockquote img {
         width: 50px;
         height: 40px;
         margin-left: 115px;
     }
 
-    .containerArticle h3 {
+    .containerArticle p {
         font-size: 20px;
         color: #2F2F2F;
         margin: 0;
         text-align: center;
     }
 
-    .containerArticle p {
+    .containerArticle cite {
         font-size: 14px;
         text-align: center;
+        margin-left: 60px;
     }
 
     #blockQuoteImg {
@@ -156,7 +157,7 @@
         height: 226px;
     }
 
-    blockquote>figure>figcaption {
+    .containerArticle>figure>figcaption {
         margin-left: 150px;
     }
 

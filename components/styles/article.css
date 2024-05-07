@@ -1,9 +1,11 @@
 article {
     margin: 0 auto;
 }
-.mobileCenterIcons{
+
+.mobileCenterIcons {
     display: none;
 }
+
 .subtitle01 {
     color: #7C7C7C;
     font-size: 20px;
@@ -23,22 +25,22 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-
 }
 
-.containerArticle>div {
+.containerArticle>blockquote {
     width: 357px;
     height: 213px;
     margin-left: 50px;
 }
 
-.containerArticle>div img {
+.containerArticle>blockquote img {
     width: 50px;
     height: 40px;
     margin-left: 150px;
+   
 }
 
-.containerArticle h3 {
+.containerArticle p {
     font-size: 24px;
     color: #2F2F2F;
     margin: 22px 0 8px;
@@ -46,9 +48,9 @@ article {
     font-family: 'Poppins-Bold';
 }
 
-.containerArticle p {
+.containerArticle cite {
     font-size: 14px;
-    text-align: center;
+    margin-left: 95px;
 }
 
 /* Equal Layout */
@@ -116,7 +118,8 @@ mark {
     margin-bottom: 10px;
 }
 
-.finalFigure>div, #finalFigCaption {
+.finalFigure>div,
+#finalFigCaption {
     display: flex;
     align-items: center;
     justify-content: center;
