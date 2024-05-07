@@ -4,8 +4,8 @@
         width: 360px;
         height: 7169px;
         background: #F8F9FC 0% 0% no-repeat padding-box;
+        margin: 0 auto;
     }
-
     .mobileCenterIcons {
         display: flex;
         justify-content: center;
@@ -80,7 +80,8 @@
 
     #mobileMainImage {
         display: flex;
-        min-width: 112vw;
+        min-width: 100vw; /*Fazer correções para alinhar versão mobile.*/
+        width: 430px;
         height: 260px;
     }
 
@@ -100,7 +101,7 @@
     .containerTop {
         width: 360px;
         position: absolute;
-        top: 438px;
+        top: 448px;
     }
 
     /*ARTICLE*/
@@ -160,6 +161,14 @@
     .containerArticle>figure>figcaption {
         margin-left: 150px;
     }
+
+    .equalLayout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        width: auto;
+    }
+    
 
     .iframes {
         margin: 0;
