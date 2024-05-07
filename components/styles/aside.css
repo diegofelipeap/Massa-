@@ -10,11 +10,20 @@
     position: absolute;
 }
 
+.iconsBar>div:first-child {
+    display: flex;
+}
+
+.iconsBar div>figure:nth-child(2) {
+    margin-left: 510px;
+    text-align: center;
+}
+
 .socialNetwork {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 36px;
+    margin-top: -200px;
     cursor: pointer;
     align-items: center;
 }
@@ -28,17 +37,4 @@
 .iconsBar img:not(:first-child) {
     width: 18px;
     height: 18px;
-}
-
-.rightBar {
-    display: flex;
-    flex-direction: column;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    top: 3em;
-    right: 410px;
-    cursor: pointer;
-    position: absolute;
 }
