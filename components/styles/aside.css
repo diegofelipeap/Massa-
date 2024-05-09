@@ -30,6 +30,12 @@
     gap: 20px;
     cursor: pointer;
     align-items: center;
+    margin-left: 5px;
+}
+
+#whatsappIcon {
+    width: 18px;
+    height: 18px;
 }
 
 .iconsBar img:first-child {
