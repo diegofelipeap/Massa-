@@ -235,6 +235,18 @@
         margin-right: 110px;
     }
 
+    .shoutIcon {
+        font-size: 22px;
+        font-family: 'Poppins-Bold';
+        font-size: bold;
+        margin-left: 35px;
+    }
+
+    .shoutIcon>img {
+        width: 14px;
+        height: 30px;
+    }
+
     .containerWrap {
         display: flex;
         flex-direction: column;
