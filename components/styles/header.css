@@ -119,6 +119,6 @@ input::placeholder {
     margin: 0 auto;
     z-index: 1;
 }
-#mobileMainImage{
+.mobileMainImage{
     display: none;
 }
