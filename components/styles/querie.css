@@ -5,6 +5,7 @@
         height: 7169px;
         background: #F8F9FC 0% 0% no-repeat padding-box;
         margin: 0 auto;
+        overflow-x: hidden;
     }
 
     .mobileCenterIcons {
