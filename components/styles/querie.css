@@ -1,8 +1,11 @@
 @media screen and (max-width: 768px) {
 
+    html {
+        width: 100%;
+        height: auto;
+    }
+
     body {
-        width: 360px;
-        height: 7169px;
         background: #F8F9FC 0% 0% no-repeat padding-box;
         margin: 0 auto;
         overflow-x: hidden;
@@ -78,12 +81,10 @@
         display: none;
     }
 
-    #mobileMainImage {
+    .mobileMainImage {
         display: flex;
-        min-width: 100vw;
-        /*Fazer correções para alinhar versão mobile.*/
-        width: 430px;
-        height: 260px;
+        width:450px;
+        height: auto;
     }
 
 
@@ -100,10 +101,12 @@
     }
 
     .containerTop {
-        width: 360px;
+        width: 320px;
+        height: 100px;
+        padding: 0;
+        margin-left: 10px;
         position: absolute;
-        top: 448px;
-        left: 7vw;
+        top: 510px;
     }
 
     /*ARTICLE*/
@@ -120,6 +123,11 @@
         width: 320px;
         height: 155px;
         font-size: 16px;
+    }
+
+    .interactionContainer {
+        width: 265px;
+        height: 40px;
     }
 
     .containerArticle {
@@ -165,15 +173,13 @@
     }
 
     .equalLayout {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        width: auto;
+        width: 120px;
     }
 
 
     .iframes {
         margin: 0;
+        width: 300px;
     }
 
     .iframes iframe,
@@ -216,12 +222,13 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 250px;
+        width: 320px;
+        height: 370px;
     }
 
     .finalFigure img {
         display: flex;
         margin-bottom: 30px;
-        margin-right: 110px;
         width: 320px;
         height: 166px;
     }
@@ -234,6 +241,10 @@
         gap: 10px;
         margin-bottom: 10px;
         margin-right: 110px;
+    }
+
+    section:last-of-type{
+        width: 390px;
     }
 
     .shoutIcon {
@@ -271,7 +282,7 @@
     }
 
     footer {
-        width: 415px;
+        width: 450px;
         height: 1216px;
     }
 
@@ -318,8 +329,8 @@
     }
 }
 
-@media screen and (max-width: 576px) {
-    .mobileCenterIcons {
-        display: flex;
+@media screen and (max-width: 390px) {
+    main, header, html, footer{
+        width: 450px;
     }
 }
