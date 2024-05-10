@@ -11,7 +11,7 @@ header nav {
     margin: 25px 50px 40px;
 }
 
-.firstNavButton{
+.firstNavButton {
     display: none;
 }
 
@@ -19,9 +19,10 @@ header nav {
     color: #D51C17;
     text-decoration: 0;
 }
-.draftLinks{
+
+.draftLinks {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     font-size: 12px;
@@ -119,6 +120,7 @@ input::placeholder {
     margin: 0 auto;
     z-index: 1;
 }
-.mobileMainImage{
+
+.mobileMainImage {
     display: none;
 }
