@@ -183,6 +183,9 @@
         width: 320px;
         height: 226px;
     }
+    .containerArticle>figure>figcaption {
+        margin-left: 150px;
+    }
 
     .equalLayout {
         width: 120px;
