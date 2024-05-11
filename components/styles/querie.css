@@ -310,7 +310,7 @@
     footer {
         margin-top: 370px;
         width: 450px;
-        height: 1016px;
+        height: 1016px; /*dimensionar melhor em todos os queries.*/
     }
 
     #footerLogo {
