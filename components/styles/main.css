@@ -141,8 +141,8 @@ figcaption {
     border: none;
 }
 
-.boldParagraph {
-    margin-top: 20px;
+.newNotices > h3 {
+    margin: 20px 0 20px;
     font-weight: bold;
     font-size: 15px;
     height: 61px;
@@ -151,5 +151,4 @@ figcaption {
 .smallParagraph {
     font-size: 10px;
     color: #9F9F9F;
-    margin-top: 5px;
 }

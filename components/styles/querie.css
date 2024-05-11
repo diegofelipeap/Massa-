@@ -193,6 +193,7 @@
 
     .equalLayout {
         width: 120px;
+        height: 3850px;
     }
 
 
@@ -233,7 +234,7 @@
     }
 
     #pMarginMobile {
-        margin-top: 80px;
+        margin-top: 70px;
     }
 
     .finalFigure {
@@ -280,6 +281,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 35px;
+        height: 700px;
     }
 
     .newNotices {
@@ -298,7 +300,15 @@
         margin-bottom: 37px;
     }
 
+    .newNotices > h3 {
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 15px;
+        height: 61px;
+    }
+
     footer {
+        margin-top: 370px;
         width: 450px;
         height: 1016px;
     }
