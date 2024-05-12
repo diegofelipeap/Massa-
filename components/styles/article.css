@@ -37,7 +37,6 @@ article {
     width: 50px;
     height: 40px;
     margin-left: 150px;
-
 }
 
 .containerArticle p {
@@ -45,19 +44,20 @@ article {
     color: #2F2F2F;
     margin: 22px 0 8px;
     text-align: center;
-    font-family: 'Poppins-Bold';
+    font: bold 24px 'Poppins';
 }
 
 .containerArticle cite {
     font-size: 14px;
     margin-left: 95px;
+    font-style: normal;
 }
 
 /* Equal Layout */
 .equalLayout {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    gap: 10px;
     width: 900px;
 }
 
@@ -66,7 +66,16 @@ article {
 }
 
 .equalLayout p:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.equalLayout p:nth-child(11) {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.equalLayout p:nth-child(14) {
+    margin-top: -20px;
 }
 
 .iframes {
@@ -87,13 +96,13 @@ article {
 
 h2 {
     font-size: 36px;
-    font-family: 'Poppins-Bold';
+    font: normal normal bold 36px 'Poppins';
 }
 
 #repertoryTitle {
     font-size: 24px;
     text-align: center;
-    font-family: 'Poppins-Bold';
+    font: normal normal bold 24px 'Poppins';
 }
 
 mark {
@@ -103,7 +112,7 @@ mark {
     margin-left: 120px;
     margin-bottom: 40px;
     background: none;
-    font-family: 'Poppins-Bold';
+    font: normal normal bold 24px 'Poppins';
 }
 
 .finalFigure {

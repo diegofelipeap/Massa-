@@ -24,7 +24,7 @@
     }
 
     article {
-        height: 5230px;
+        height: 5400px;
     }
 
     .subtitle01 {
@@ -147,7 +147,7 @@
     }
 
     .interactionContainer {
-        width: 265px;
+        margin-bottom: -10px;
         height: 40px;
     }
 
@@ -196,8 +196,17 @@
     .equalLayout {
         width: 120px;
         height: 3850px;
+        gap: 45px;
     }
 
+    .equalLayout p:nth-child(11) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .equalLayout p:nth-child(14) {
+        margin-top: 20px;
+    }
 
     .iframes {
         margin: 0;
@@ -232,20 +241,21 @@
         color: #D51C17;
         font-weight: bold;
         margin-left: 0;
-        margin-bottom: 40px;
+        margin-top: -10px;
     }
 
     #pMarginMobile {
         margin-top: 70px;
+        margin-bottom: 1px;
     }
 
     .finalFigure {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 250px;
+        margin-top: 20px;
         width: 320px;
-        height: 370px;
+        height: 180px;
     }
 
     .finalFigure img {
@@ -331,7 +341,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .navLinks li{
+
+    .navLinks li {
         margin-left: 42px;
     }
 
@@ -340,20 +351,21 @@
     }
 
     .secCaption {
-        margin: 40px 0;
+        margin: 40px 10px 40px 10px;
     }
 
     .secCaption p {
         font-size: 10px;
         text-align: center;
-        margin-bottom: 0px;
-        margin-left: 0;
+        margin-left: 36px;
         width: 320px;
         height: 43px;
     }
 
     .secCaption img {
-        margin-left: 10px;
+        margin-left: -30px;
+        position: relative;
+        bottom: 70px;
     }
 }
 
@@ -363,6 +375,47 @@
     header,
     html,
     footer {
-        width: 450px;
+        width: 400px;
+    }
+    .secCaption {
+        margin: 40px 20px 40px 6px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    main,
+    header,
+    html,
+    footer {
+        width: 360px;
+    }
+
+    h1,
+    .containerTop,
+    .subtitle01 {
+        width: 300px;
+    }
+
+    main {
+        margin-left: -20px;
+    }
+
+    .mobileMainImage {
+        margin-left: -30px;
+    }
+
+    .equalLayout {
+        margin-left: -10px;
+    }
+
+    .shoutIcon,
+    .containerWrap {
+        margin-left: 20px;
+    }
+
+    #topFooter,
+    .footerImg {
+        margin-left: -20px;
     }
 }
