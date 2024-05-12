@@ -100,12 +100,18 @@ input::placeholder {
     width: 20px;
     height: 20px;
 }
+.secondNav{
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+}
 
 .secondNav a {
     color: #2F2F2F;
     font-size: 12px;
     font-weight: bold;
     text-decoration: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .secondNav a:last-child {

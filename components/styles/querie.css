@@ -13,7 +13,7 @@
         width: 100%;
     }
 
-    a{
+    a {
         text-decoration: none;
     }
 
@@ -75,24 +75,26 @@
         height: 15px;
     }
 
+    .secondNav {
+        width: 100%;
+        margin-left: -10px;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .secondNav::-webkit-scrollbar {
+        width: 0;
+    }
+
     .secondNav a {
         font-size: 10px;
-        margin-right: 10px;
-        width: 47px;
         height: 15px;
-        font-weight: bold;
-        position: relative;
-        right: 25px;
-
+        padding: 0 10px;
+        margin-top: 11px;
+        margin-bottom: 1px;
     }
 
-    .secondNav>a:first-child {
-        display: none;
-    }
-
-    .secondNav a:nth-last-child(-n+3) {
-        display: none;
-    }
 
     .weatherItem {
         margin-left: 44.5px;
@@ -125,9 +127,8 @@
         width: 320px;
         height: 100px;
         padding: 0;
-        margin-left: 10px;
         position: absolute;
-        top: 510px;
+        top: 545px;
     }
 
     /*ARTICLE*/
@@ -187,6 +188,7 @@
         width: 320px;
         height: 226px;
     }
+
     .containerArticle>figure>figcaption {
         margin-left: 150px;
     }
@@ -300,7 +302,7 @@
         margin-bottom: 37px;
     }
 
-    .newNotices > h3 {
+    .newNotices>h3 {
         margin: 0 auto;
         font-weight: bold;
         font-size: 15px;
@@ -310,7 +312,7 @@
     footer {
         margin-top: 370px;
         width: 450px;
-        height: 1016px; /*dimensionar melhor em todos os queries.*/
+        height: 1116px;
     }
 
     #footerLogo {
@@ -329,9 +331,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    .navLinks>a {
-        font-size: 1px;
+    .navLinks li{
+        margin-left: 42px;
     }
 
     #politeTitle {
